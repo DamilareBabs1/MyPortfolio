@@ -17,7 +17,7 @@ export default function Hero() {
           
           <button onClick={()=>{
             document.getElementById("projects")?.scrollIntoView({behavior: "smooth"})
-          }} className="px-6 py-3 bg-black text-white rounded-md hover:opacity-80 transition hover:scale-[1.02] dark:bg-gradient-to-r from-emerald-500 to-cyan-500 ">View Projects</button>
+          }} className="px-6 py-3 bg-black text-white rounded-md hover:opacity-80 transition hover:scale-[1.02] dark:bg-gradient-to-r dark:from-emerald-500 dark:to-cyan-500">View Projects</button>
 
           <button onClick={()=>{
             document.getElementById("contact")?.scrollIntoView({behavior: "smooth"})

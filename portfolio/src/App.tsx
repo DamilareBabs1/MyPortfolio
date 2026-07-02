@@ -26,8 +26,7 @@ export default function App() {
 
   if (loading) {
     return (
-      <div
-        className={`fixed inset-0 flex items-center justify-center bg-gradient-to-br from-slate-950 via-black to-slate-900 text-white overflow-hidden transition-opacity duration-500 ${
+      <div className={`fixed inset-0 flex items-center justify-center bg-gradient-to-br from-slate-950 via-black to-slate-900 text-white overflow-hidden transition-opacity duration-500 ${
           fadeOut ? "opacity-0" : "opacity-100"
         }`}
       >
