@@ -8,7 +8,7 @@ export default function Hero() {
 
         <motion.p initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} className="text-gray-500 dark:text-gray-300 text-sm">Full-Stack Developer</motion.p>
 
-        <motion.h1 initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="lg:text-5xl font-bold text-3xl md:text-4xl mt-3 leading-tight">Hi, I’m Babatunde 👋</motion.h1>
+        <motion.h1 initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.1 }} className="lg:text-5xl font-bold text-3xl md:text-4xl mt-3 leading-tight">Hi, I'm{" "}<span className="text-blue-600 dark:text-cyan-400">Babatunde Fashina</span>{" "}👋</motion.h1>
 
         <motion.p initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.2 }} className="mt-6 text-gray-600 text-lg dark:text-gray-300 leading-relaxed max-w-2xl">I’m currently learning full-stack development while building real projects.
           My focus is on becoming better at solving problems with code and eventually using technology to improve access to healthcare, education, and job opportunities.</motion.p>
