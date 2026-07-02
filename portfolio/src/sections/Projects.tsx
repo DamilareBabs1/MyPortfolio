@@ -26,7 +26,7 @@ export default function Projects() {
       tech: ["React", "TypeScript", "Tailwind"],
       category: "fullstack",
       github: "https://github.com/DamilareBabs1/medibridge",
-      demo: "https://your-live-site.com",
+      demo: "https://medi-bridge-3d5k.vercel.app",
     },
     // {
     //   title: "Task Manager",
@@ -98,18 +98,9 @@ export default function Projects() {
             </div>
 
             <div className="mt-6 flex gap-6 text-sm font-medium">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noreferrer"
-                className="hover:underline"
-              >
-                GitHub →
-              </a>
+              <a href={project.github} target="_blank" rel="noreferrer" className="hover:underline">GitHub →</a>
 
-              <a href={project.demo} className="hover:underline">
-                Live Demo →
-              </a>
+              <a href={project.demo} target="_blank" rel="noreferrer" className="hover:underline">Live Demo →</a>
             </div>
           </motion.div>
         ))}
